@@ -1,0 +1,10 @@
+CREATE DATABASE metalforever;
+USE metalforever;
+
+CREATE TABLE bandas (
+	id INT(11) NOT NULL AUTO_INCREMENT,
+	nome VARCHAR(100) NOT NULL,
+	pais VARCHAR(50) NOT NULL,
+	ano_formacao INT(11) NOT NULL,
+	PRIMARY KEY (id)
+);
